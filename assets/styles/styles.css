@@ -1,0 +1,360 @@
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url(../font/NotoSans-Regular.ttf);
+ }
+
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url(../font/NotoSans-Bold.ttf);
+ }
+@font-face {
+  font-family: 'NotoSansSemiBold';
+  src: url(../font/NotoSans-SemiBold.ttf);
+ }
+
+ .NotoSansSemiBold{
+  font-family: NotoSansSemiBold;
+ }
+ .NotoSansBold{
+  font-family: NotoSansBold;
+ }
+ .NotoSansRegular{
+  font-family: NotoSansRegular;
+ }
+
+.h1-title{
+    color: #45505B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.autor{
+  font-family: NotoSansRegular;
+  font-size: 16px;
+  color: #181C31;
+}
+
+.pading-sections{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+}
+.pading-sections-audio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-nav{
+  font-family: NotoSansSemiBold;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #45505B;
+}
+
+.text-inicial{
+  font-family: NotoSansRegular;
+  font-size: 22px;
+  color: #181C31;
+}
+.text-inicial-dos{
+  font-family: NotoSansBold;
+  font-size: 50px;
+  color: #181C31;
+}
+.text-inicial-tres{
+  font-family: NotoSansRegular;
+  font-size: 17px;
+  color: #9297A0;
+}
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #181C31;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+.botton-pr{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.boton-principal{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #181C31;
+  border-color: #181C31;
+  border-radius: 0.5rem;
+  height: 60px;
+  text-decoration: inherit;
+  color: #FFFFFF;
+  font-family: NotoSansRegular;
+}
+.boton-principal:hover{
+  background-color: rgba(24, 28, 50, 60);
+  color: #FFFFFF;
+}
+
+.btn-align-icon{
+  display: flex;
+  align-items: center;
+}
+
+.boton-principal span {
+  margin-right: 5px;
+}
+
+.boton-audio{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #7083F5;
+  border-color: #7083F5;
+  border-radius: 0.5rem;
+  height: 60px;
+  text-decoration: inherit;
+  color: #FFFFFF;
+  font-family: NotoSansRegular;
+  display: flex;
+  align-items: center;
+}
+
+.boton-audio:hover{
+  background-color: rgba(112, 131, 245, 60);
+  color: #FFFFFF;
+}
+
+.boton-audio span {
+  margin-right: 5px;
+}
+
+
+.color-grad{
+  background: #8EA5FE;
+  background: linear-gradient(to right, #8EA5FE 0%, #90D1FF 50%, #BEB3FD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.bg-color-int{
+  background-color: #FFFFFF;
+}
+.bg-color-footer{
+  background-color: #7083F5;
+  color: #FFFFFF;
+  font-family: NotoSansRegular;
+}
+.bg-color-aside{
+  background-color: #7083F5;
+  color: #FFFFFF;
+}
+
+.footer{
+  font-family: NotoSansRegular;
+}
+
+.margin-content{
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+.margin-secction-navegacion{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.bg-color-audio{
+  background-color: #F8FAFB;
+}
+
+@media (max-width: 800px) {
+  .image-pr {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .image-pr {
+    margin-top: -80px;
+    margin-left: -20px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .image-audio-card {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .image-audio-card {
+    margin-top: -30px;
+  }
+}
+
+
+/* .image-pr{
+  margin-top: -80px;
+  margin-left: -20px;
+} */
+
+/* .image-audio-card{
+  margin-top: -30px;
+} */
+
+.title-audio{
+  font-family: NotoSansBold;
+  font-size: 50px;
+  color: #181C31;
+}
+
+.menu-card{
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 90px;
+  height: 90px; */
+  color: #181C31;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu-card:hover{
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 90px;
+  height: 90px; */
+  background-color:#7083F5;
+  color: white;
+}
+
+.menu-aside{
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 90px;
+  height: 90px; */
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu-aside:hover{
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  /* width: 90px;
+  height: 90px; */
+  background-color: #473F44;
+  color: white;
+}
+
+
+
+/*  */
+
+.card-margin {
+  margin-bottom: 1.875rem;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  /* border: 1px solid #e6e4e9; */
+  border-radius: 20px;
+}
+
+.img-nosotros {
+  border-radius: 50%;
+}
+
+.text-h3{
+  color: #9297A0;
+  font-family: NotoSansRegular;
+}
+
+.bg-oscuro{
+  background-color: #F3F5FA;
+}
+.h1-theme{
+  font-family: NotoSansBold;
+  color: #181C31;
+}
+.h3-theme{
+  font-family: NotoSansRegular;
+  color: #728394;
+}
+.p-contet{
+  font-family: NotoSansRegular;
+  text-align: justify;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display:inline-block;
+  float: none;
+}
+
+/* Audio */
+
+.btn-audio {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  margin-right: 10px; 
+}
+
+.btn-audio:hover {
+  background-color: #3e8e41;
+}
+
+
+/* Styles CSS Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 300px;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: bolder;
+}
+.item {
+  background-color: #868ff3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
